@@ -22,7 +22,7 @@ app.post("/users", (req, res) => {
       res.send(err);
     });
 });
-app.post("/users", (req, res) => {
+app.post("/seats", (req, res) => {
   console.log(req.body);
   const user = new User(req.body);
   user
